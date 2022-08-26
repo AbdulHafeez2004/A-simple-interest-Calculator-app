@@ -1,0 +1,60 @@
+body{
+    background-color: black
+}
+.header{
+    margin-top: 4%;
+    text-align: center;
+    margin-bottom: 43px;
+    color: #777;
+}
+.amounta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.amounta h1{
+    margin-left: 10%;
+    margin-right: 17%;
+}
+.interest{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 45%;
+}
+.interest h1 {
+    margin-left: -67%;
+    margin-right: 16%;
+}
+.years{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 45%;
+}
+.years h1{
+    margin-left: -95%;
+    margin-right: 19%;
+}
+button{
+    margin-top: 50px;
+    margin-left: 44%;
+    margin-bottom: 20px;
+}
+#res{
+    margin-top: 20px;
+    margin-left: 30%;
+}
+.container{
+    background-color: white;
+    border-radius: 25px;
+    height: 40%;
+    width: 40%;
+}
+.display{
+    margin-bottom: 20%;
+    margin-left: 10px;
+}
+.second{
+    margin-bottom: 30px;
+}

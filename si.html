@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./si.css">
+    <title>Web App - Simple Interest Calculator</title>
+</head>
+<body>
+    <div class="container">
+    <h1 class="header">Simple Interest Calculator</h1>
+    <div class="amounta">
+        <h1>Amount</h1>
+        <input type="text" class="amount" value="" required>
+    </div>
+    <div class="interest">
+        <h1>Interest rate</h1>
+        <input type="range" value="24" class="interests" min="1" max="20" step="0.25" oninput="this.nextElementSibling.value = this.value">
+        <output id="output">10.25</output>
+        <span>%</span>
+    </div>
+    <div class="years">
+        <h1>No. of years</h1>
+        <select name="years" id="years">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+        </select>
+    </div>
+    <button class="comp">Compute interest</button>
+    <p id="res"></p>
+    <div class="display">
+        <p>&copy Everyone Can Get Rich</p>
+        <p class="second">This Calculator belongs to AbdulHafeez</p>
+    </div>
+    </div>
+    <script src="si.js"></script>
+</body>
+</html>
